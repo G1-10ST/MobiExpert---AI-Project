@@ -30,7 +30,7 @@ CREATE TABLE `Mobiles` (
   `Price` int(11) DEFAULT NULL,
   `Name` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`S_No`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=31 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -39,7 +39,7 @@ CREATE TABLE `Mobiles` (
 
 LOCK TABLES `Mobiles` WRITE;
 /*!40000 ALTER TABLE `Mobiles` DISABLE KEYS */;
-INSERT INTO `Mobiles` VALUES (1,10,10,10,100119,'Iphone 11 Pro Max'),(2,10,10,10,103219,'Google Pixel 4XL'),(3,10,9,9,44900,'OnePlus 7 Pro'),(4,7,8,8,11153,'Redmi Note 7 Pro');
+INSERT INTO `Mobiles` VALUES (1,10,10,10,100119,'Iphone 11 Pro Max'),(2,10,10,10,103219,'Google Pixel 4XL'),(3,10,9,9,44900,'OnePlus 7 Pro'),(4,7,8,8,11153,'Redmi Note 7 Pro'),(5,6,5,5,5600,'Redmi 3s Prime'),(6,6,7,8,29900,'Oppo Reno 2Z'),(7,7,8,9,13999,'Samsung Galaxy M30s'),(8,8,8,8,19000,'Samsung Galaxy A50s'),(9,8,8,6,16390,'Realme Xt'),(10,8,7,8,12000,'Xiaomi Mi A3'),(11,9,9,9,14999,'Redmi Note 8 pro'),(12,8,8,8,9999,'Redmi Note 8'),(13,7,6,6,10999,'Redmi Note 4'),(14,6,6,8,11999,'Redmi Note 5'),(15,7,7,8,14999,'Redmi Note 5 pro'),(16,6,7,6,8889,'Realme 5'),(17,5,5,5,4999,'Redmi Go'),(18,5,6,5,8990,'Vivo U10'),(19,10,10,10,59990,'Asus ROG Phone'),(20,6,7,8,16799,'Vivo S1'),(21,8,7,8,10999,'Vivo V17 Pro'),(22,9,9,8,53999,'OnePlus 7T Pro'),(23,8,8,8,37999,'OnePlus 7T'),(24,6,6,6,10000,'Redmi 8'),(25,5,6,6,8888,'Motorola Moto E6s'),(26,6,6,6,12000,'Samsung Galaxy A20s'),(27,7,7,8,19999,'Oppo A9 2020'),(28,9,5,5,7777,'Samsung Galaxy M10s'),(29,8,8,8,25000,'Oppo Reno 2F'),(30,7,5,6,36999,'Oppo Reno2');
 /*!40000 ALTER TABLE `Mobiles` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -76,4 +76,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2019-10-20 19:41:18
+-- Dump completed on 2019-10-24 13:21:27
