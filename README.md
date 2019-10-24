@@ -6,6 +6,6 @@ This project uses KNN algorithm to predict the suitable mobile phone to its user
 This project uses dataset which is created by us.
 
 ## Steps to install and Run the project
--- Clone or Download the Repository locally
--- Install the database by importing from mysqldumpfile downloaded in the package
--- Run the main.py file either by using an IDE or on Command Line Interface by giving Command python3 main.py
+- Clone or Download the Repository locally
+- Install the database by importing from mysqldumpfile downloaded in the package
+- Run the main.py file either by using an IDE or on Command Line Interface by giving Command ```python3 main.py```
