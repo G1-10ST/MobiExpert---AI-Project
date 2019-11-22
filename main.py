@@ -12,8 +12,14 @@ w,h=root.winfo_screenwidth(),root.winfo_screenheight()
 root.geometry("%dx%d+0+0"%(w,h))
 root.resizable(0,0)
 
+#############################################
+
+# Change this line as per your database user and password
+
 mydb=mysql.connector.connect(host="localhost",user="root",passwd="",database="MobiExpert")
 
+
+#############################################
 mycursor=mydb.cursor()
 
 

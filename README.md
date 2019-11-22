@@ -8,4 +8,5 @@ This project uses dataset which is created by us.
 ## Steps to install and Run the project
 - Clone or Download the Repository locally
 - Install the database by importing from mysqldumpfile downloaded in the package
+- Open the main.py file using any text editor locate line number 19 (marked in between comments) change user to your mysql user and passwd field to your mysql password.
 - Run the main.py file either by using an IDE or on Command Line Interface by giving Command ```python3 main.py```
